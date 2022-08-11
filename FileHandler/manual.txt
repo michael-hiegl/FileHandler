@@ -1,0 +1,20 @@
+Programm kopiert automatisch alle 10 Sekunden alle Dateien innerhalb eines Ordners
+und Fügt die Kopien in einen anderen Ordner ein. Dateien gleichen Namens im Zielordner
+werden ersetzt.
+So werden auch bereits bestehende Dateien im Zielordner bei Änderungen im
+Quellordner aktualisiert.
+
+Die Pfade müssen in den Dateien source.txt und destination.txt angegeben
+werden. Zu achten ist dabei auf die Schreibweise.
+
+Die EXE-Datei und die TXT-Dateien müssen sich im selben Ordner befinden.
+
+Wenn Dateien aus dem Zielordner benötigt werden, muss dafür eine Kopie
+erstellt werden. Das Öffnen der Datei im Zielordner selbst führt zum 
+Programmabbruch.
+
+Achtung!: Dateien, welche im Qellordner nicht mehr vorhanden sind,
+werden im Zielordner endgültig gelöscht.
+
+Die Anwendung läuft ohne sichbare Ausgabe im Hintergrund und es empfiehlt sich,
+eine Verknüpfung der FileHandler.exe in den Autostart einzufügen.
